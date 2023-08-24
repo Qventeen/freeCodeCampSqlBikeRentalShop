@@ -178,3 +178,6 @@ ls --color=auto
 clear
 ./bike-shop.sh
 ./bike-shop.sh
+clear
+echo '28 | Montain'
+echo '28 | Mountain'
