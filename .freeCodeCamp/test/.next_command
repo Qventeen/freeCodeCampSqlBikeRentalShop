@@ -167,3 +167,11 @@ clear
 ./bike-shop.sh
 clear
 ./bike-shop.sh
+__vsc_prompt_cmd_original
+clear
+git status
+ls --color=auto
+git status
+git log
+clear
+ls --color=auto
