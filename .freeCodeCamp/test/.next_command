@@ -146,3 +146,17 @@ clear
 [[ 11 =~ ^[0-9]+$ ]]
 [[ ! 11 =~ ^[0-9]+$ ]]
 ./bike-shop.sh
+ls --color=auto -la
+cat .gitignore
+git remote show
+git remote add origin https://github.com/Qventeen/freeCodeCampSqlBikeRentalShop
+git status
+git add bike-shop.sh
+git status
+__vsc_prompt_cmd_original
+git commit -m "INIT"
+git log
+clear
+ls --color=auto
+git push -fu origin:master https://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@github.com/Qventeen/freeCodeCampSqlBikeRentalShop
+git push -fu https://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@github.com/Qventeen/freeCodeCampSqlBikeRentalShop
