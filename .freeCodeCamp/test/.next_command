@@ -190,3 +190,4 @@ echo '28 | Mountain'
 ./bike-shop.sh
 clear
 echo ' M e '
+echo "$(echo ' M e ')."
