@@ -233,3 +233,16 @@ clear
 ./bike-shop.sh
 __vsc_prompt_cmd_original
 ./bike-shop.sh
+git status
+git status
+ls --color=auto
+git status
+git commit -m 'Implement RETURN_MENU'
+git add bike-shop.sh
+git commit -m 'Implement RETURN_MENU'
+git push https://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@github.com/Qventeen/freeCodeCampSqlBikeRentalShop
+git push -f https://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@github.com/Qventeen/freeCodeCampSqlBikeRentalShop
+git push -f https://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@github.com/Qventeen/freeCodeCampSqlBikeRentalShop:master
+git push -f https://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@github.com/Qventeen/freeCodeCampSqlBikeRentalShop
+git push -fu https://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@github.com/Qventeen/freeCodeCampSqlBikeRentalShop
+git push https://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@github.com/Qventeen/freeCodeCampSqlBikeRentalShop
