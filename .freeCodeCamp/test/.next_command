@@ -51,3 +51,4 @@ touch bike-shop.sh
 chmod +x bike-shop.sh
 clear
 ls --color=auto
+chmod +x bike-shop.sh
