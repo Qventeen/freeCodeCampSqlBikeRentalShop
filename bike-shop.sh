@@ -88,7 +88,10 @@ RETURN_MENU() {
     read PHONE_NUMBER
     CUSTOMER_ID=$($PSQL "select customer_id from customers where phone = '$PHONE_NUMBER'")
     #if not found
-    #send to main menu
+    if [[ -z $CUSTOMER_ID ]]
+    then
+        #send to main menu
+    fi
 }
 
 EXIT() {
