@@ -160,3 +160,7 @@ clear
 ls --color=auto
 git push -fu origin:master https://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@github.com/Qventeen/freeCodeCampSqlBikeRentalShop
 git push -fu https://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@github.com/Qventeen/freeCodeCampSqlBikeRentalShop
+B6Q0PsF2Cj3PilMX_8ItYt4ZAyFxGoF73gFVEMJiyu9Ps78EOO742vEoJWbjT2DJFZ7TpcNpR88d@github.com/Qventeen/freeCodeCampSqlBikeRentalShop
+__vsc_prompt_cmd_original
+clear
+./bike-shop.sh
