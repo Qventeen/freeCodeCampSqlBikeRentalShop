@@ -222,3 +222,4 @@ git commit -m 'Implement RENT_MENU'
 git push -fu https://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@github.com/Qventeen/freeCodeCampSqlBikeRentalShop
 git status
 ./bike-shop.sh
+__vsc_prompt_cmd_original
