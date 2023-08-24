@@ -123,10 +123,11 @@ RETURN_MENU() {
                 #if input not rented
                 if [[ -z $RENTAL_ID ]]
                 then
-                    #send to main menu
+                    #send to main menu 
                     MAIN_MENU "You do not have that bike rented."
                 else
                     #update date_returned
+                    RETURN_BIKE_RESULT=$($PSQL "update rentals set date_returned = now() where rental_id = $RENTAL_ID")
                     #set bike availability to true
                     #send to main menu
                 fi
