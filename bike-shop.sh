@@ -40,12 +40,14 @@ RENT_MENU() {
           #send to main menu
           MAIN_MENU "That is not a valid bike number."
         else
-          #get bike availability
-          BIKE_AVAILABILITY=$($PSQL "select available from bikes where bike_id = $BIKE_ID_TO_RENT and available = true")
-          echo $BIKE_AVAILABILITY
-          #if not available
-          #send to main menu
-        
+            #get bike availability
+            BIKE_AVAILABILITY=$($PSQL "select available from bikes where bike_id = $BIKE_ID_TO_RENT and available = true")
+            echo $BIKE_AVAILABILITY
+            #if not available
+            if [[ -z $BIKE_AVAILABILITY ]]
+            then
+                #send to main menu
+            fi
         fi
     fi
 }
