@@ -64,13 +64,17 @@ RENT_MENU() {
 
                 # get customer_id
                 CUSTOMER_ID=$($PSQL "select customer_id from customers where phone='$PHONE_NUMBER'")
+                
                 # insert bike rental
                 INSERT_RENTAL_RESULT=$($PSQL "insert into rentals(customer_id, bike_id) values($CUSTOMER_ID, $BIKE_ID_TO_RENT)")
+                
                 # set bike availability to false
                 SET_TO_FALSE_RESULT=$($PSQL "update bikes set available=false where bike_id=$BIKE_ID_TO_RENT")
+                
                 # get bike info
                 BIKE_INFO=$($PSQL "select size, type from bikes where bike_id=$BIKE_ID_TO_RENT")
                 BIKE_INFO_FORMATTED=$(echo "$BIKE_INFO" | sed 's/ |/"/')
+                
                 # send to main menu
                 MAIN_MENU "I have put you down for the $BIKE_INFO_FORMATTED Bike, $(echo $CUSTOMER_NAME | sed -r 's/^ *| *$//g')."
             fi
