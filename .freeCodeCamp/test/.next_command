@@ -226,3 +226,4 @@ __vsc_prompt_cmd_original
 clear
 ./bike-shop.sh
 ./bike-shop.sh
+__vsc_prompt_cmd_original
