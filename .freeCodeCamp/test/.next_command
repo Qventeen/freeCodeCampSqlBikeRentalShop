@@ -54,3 +54,4 @@ ls --color=auto
 chmod +x bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+./bike-shop.sh
