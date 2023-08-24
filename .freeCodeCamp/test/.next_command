@@ -137,3 +137,5 @@ ls --color=auto
 ls --color=auto -la
 git remote show
 git remote show coderoad
+clear
+[[ a =~ [0-9] ]]
